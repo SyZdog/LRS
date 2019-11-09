@@ -1,0 +1,23 @@
+const { app, BrowserWindow} = require('electron');
+
+
+global.sharedObject = {
+  total_number: 'default value'
+}
+
+function createWindow () {
+  // Create the browser window.
+  let win = new BrowserWindow({
+    width: 1336,
+    height: 768,
+    webPreferences: {
+      nodeIntegration: true
+    }
+  })
+
+  // and load the index.html of the app.
+  win.loadFile('index.html')
+}
+
+
+app.on('ready', createWindow)

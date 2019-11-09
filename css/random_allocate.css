@@ -1,0 +1,94 @@
+#content{
+    width: 100%;
+    height: 746px;
+    background-color: lightgoldenrodyellow;
+}
+
+#logo{
+    width: 330px;
+    height: 270px;
+    margin-left: 33px;
+    float: left;
+}
+
+#logo img{
+    width: 330px;
+}
+
+#title{
+    width: 800px;
+    font-family: PingFangSC-Semibold;
+    font-size: 60px;
+    color: #000000;
+    text-align: center;
+    float: left;
+    margin-top: 44px;
+    margin-bottom: 30px;
+}
+
+#buttons{
+    width: 1200px;
+}
+
+.button{
+    width: 180px;
+    height: 60px;
+    display: inline-block;
+    font-family: PingFangSC-Regular;
+    font-size: 29px;
+    color: #000000;
+    text-align: center;
+    background: #FA6400;
+    border: 1px solid #000000;
+    box-shadow: 3px 3px 3px -1px rgba(0,0,0,0.50), inset 0 -3px 3px 0 rgba(0,0,0,0.50);
+    border-radius: 10px;
+    margin-right: 90px;
+    margin-left: 5px;
+    line-height: 60px;
+}
+
+
+#the_thin_red_line{
+    width: 100%;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    background: #F88200;
+    border: 4px solid #FF9200;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+#two_table_blocks{
+    width: 100%;
+    clear: both;
+}
+
+#two_table_blocks p{
+    width: 130px;
+    height: 60px;
+    margin-left: 30px;
+    float: left;
+    font-family: PingFangSC-Regular;
+    font-size: 37px;
+    color: #000000;
+    text-align: center;
+}
+
+#table_block1{
+    margin-right: 125px;
+}
+
+.table_block{
+    width: 410px;
+    float: left;
+}
+
+.table_block td{
+    width: 200px;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 33px;
+    background-color: snow;
+    border: 1px solid #979797;
+
+    border-collapse: collapse;
+}

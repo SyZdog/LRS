@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>random_alloc</title>
+    <script>window.$ = window.jQuery = require('jquery');</script>
+    <link rel="stylesheet" href="../css/random_allocate.css">
+    <link rel="stylesheet" href="../css/all.css">
+</head>
+<body>
+<div id="content">
+
+    <div id="logo">
+        <img src="../img/bkg_logo.png">
+    </div>
+
+    <div id="title">
+        <p>角色分配成功！</p>
+    </div>
+
+    <div id="buttons">
+       <a href="#" onClick="javaScript:history.go(-1)">
+        <div class="button" id="button1">
+            <p>更改人数</p>
+        </div>
+        </a>
+        <a href="javascript:location.reload();">
+        <div class="button" id="button2">
+            <p>重新分配</p>
+        </div>
+        </a>
+        
+        <a href="javascript:window.opener=null;window.open('','_self');window.close();">
+        <div class="button" id="button3">
+            <p>退出程序</p>
+        </div>
+        </a>
+    </div>
+
+    <div id="the_thin_red_line"></div>
+
+    <div id="two_table_blocks">
+        <p>人类</p>
+        <div class="table_block" id="table_block1">
+            <table id="table1">
+                <tr>
+
+                </tr>
+            </table>
+        </div>
+
+        <p>狼人</p>
+        <div class="table_block" id="table_block2">
+            <table id="table2">
+                <tr>
+
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+<script src="../js/random_allocate.js"></script>
+<script src="../js/input_number.js"></script>
+</html>
